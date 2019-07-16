@@ -33,3 +33,8 @@ We’ll export all the objects that only have JPGs next.
 ## Use ImageMagick to Retrieve Image Data
 
 `time php get-imageCollection-TIFF-data.php /mnt/Workspace/imageCollection`
+`time php get-imageCollection-JPG-data.php /mnt/Workspace/imageCollection`
+
+## Clean Up MODS Files
+
+`time php ./format-MODS.php ./data/MODS`
